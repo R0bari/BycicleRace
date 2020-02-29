@@ -1,0 +1,6 @@
+E:\GitHub\BycicleRace\BycicleRace\bin\Debug\BycicleRace.exe.config
+E:\GitHub\BycicleRace\BycicleRace\bin\Debug\BycicleRace.exe
+E:\GitHub\BycicleRace\BycicleRace\bin\Debug\BycicleRace.pdb
+E:\GitHub\BycicleRace\BycicleRace\obj\Debug\BycicleRace.csprojAssemblyReference.cache
+E:\GitHub\BycicleRace\BycicleRace\obj\Debug\BycicleRace.exe
+E:\GitHub\BycicleRace\BycicleRace\obj\Debug\BycicleRace.pdb
