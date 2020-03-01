@@ -14,28 +14,28 @@ namespace BycicleRace
         }
         static void Main()
         {
-            Console.WriteLine("Введите расстояние между городами:");
+            Console.WriteLine("Enter the distance between two cities:");
             if (!double.TryParse(Console.ReadLine(), out double S))
             {
-                Console.WriteLine("Некорректный ввод.");
+                Console.WriteLine("Incorrect input.");
                 return;
             }
 
-            Console.WriteLine("Введите скорость первого велосипедиста:");
+            Console.WriteLine("Enter the speed of the first bicyclist:");
             if (!double.TryParse(Console.ReadLine(), out double A))
             {
-                Console.WriteLine("Некорректный ввод.");
+                Console.WriteLine("Incorrect input.");
                 return;
             }
 
-            Console.WriteLine("Введите скорость второго велосипедиста:");
+            Console.WriteLine("Enter the speed of the second bicyclist:");
             if (!double.TryParse(Console.ReadLine(), out double B))
             {
-                Console.WriteLine("Некорректный ввод.");
+                Console.WriteLine("Incorrect input.");
                 return;
             }
 
-            Console.WriteLine("Место встречи: " + CalculateMeetingPoint(S, A, B).ToString("0.0000000") + "-й километр.");
+            Console.WriteLine("Meeting point: " + CalculateMeetingPoint(S, A, B).ToString("0.0000000") + "km.");
         }
     }
 }
